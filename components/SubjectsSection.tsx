@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const subjects = [
   {
     name: "Matemáticas Avanzadas",
@@ -75,6 +76,7 @@ export default function SubjectsSection() {
                 hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[3px_3px_0px_#000]
                 transition
             `}
+            
             >
             
             {/* LEFT */}

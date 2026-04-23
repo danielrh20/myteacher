@@ -25,7 +25,24 @@ export default function HeroSection() {
           solo aprendizaje efectivo.
         </p>
 
-        <button className="mt-6 bg-[#D3F954] px-8 py-4 rounded-xl font-bold text-[#144424] text-lg">
+        <button className="
+          mt-6
+          bg-[#D3F954]
+          px-8 py-4
+          rounded-xl
+          font-bold
+          text-[#144424]
+          text-lg
+
+          border-2 border-black
+
+          transition
+          hover:translate-x-[2px] hover:translate-y-[2px]
+          hover:shadow-[3px_3px_0px_#000]
+
+          active:translate-x-[6px] active:translate-y-[6px]
+          active:shadow-none
+        ">
           Reservar mi clase
         </button>
       </div>

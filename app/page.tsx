@@ -3,14 +3,17 @@ import StatsSection from "@/components/StatsSection";
 import SubjectsSection from "@/components/SubjectsSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import PageTransition from "@/components/PageTransition";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <StatsSection />
-      <SubjectsSection />
-      <Footer />
-    </main>
+    <PageTransition>
+      <main>
+        <HeroSection />
+        <StatsSection />
+        <SubjectsSection />
+        <Footer />
+      </main>
+    </PageTransition>
   );
 }
