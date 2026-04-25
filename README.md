@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 MyTeacher
 
-## Getting Started
+Plataforma moderna de tutorías online y presenciales que conecta estudiantes con tutores de forma rápida, clara y eficiente.
 
-First, run the development server:
+---
+
+## 🚀 Demo en vivo
+
+👉 https://myteacher-neon.vercel.app/
+
+---
+
+## ✨ Características
+
+* 🔐 Autenticación (UI) con selección de rol
+* 🧑‍🎓 Dashboard para estudiantes
+* 👨‍🏫 Dashboard para tutores
+* 🔍 Exploración de tutores
+* 📅 Sistema de reservas (visual)
+* 👤 Perfil configurable
+* 🎨 Diseño consistente estilo **neobrutalista**
+* ⚡ Transiciones suaves entre páginas
+
+---
+
+## 🧠 Tecnologías
+
+* Next.js (App Router)
+* React + TypeScript
+* Tailwind CSS
+* Framer Motion
+
+---
+
+## 🎯 Estado del proyecto
+
+Actualmente en fase **MVP visual funcional**:
+
+✔ Navegación completa
+✔ Flujo de usuario definido
+✔ Simulación de autenticación con localStorage
+
+🔜 Próximamente:
+
+* Backend real
+* Base de datos
+* Reservas funcionales
+* Integración con videollamadas
+
+---
+
+## 📁 Estructura principal
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/app
+  /auth
+  /dashboard
+    /student
+    /tutor
+  /tutors
+  /profile
+/components
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Enfoque
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+MyTeacher está diseñado siguiendo principios de producto:
 
-## Learn More
+* Simplicidad primero
+* UX clara
+* Escalabilidad progresiva
+* MVP antes de complejidad
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚡ Instalación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/danielrh20/myteacher
+cd myteacher
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado por Daniel Rivera
+Proyecto enfocado en aprendizaje, producto y escalabilidad real.
+
+---
