@@ -87,7 +87,7 @@ npm run dev
 
 ## Autor
 
-Desarrollado por Daniel Rivera
+Desarrollado por Ares Tolosa, David Gutiérrez y Daniel Rivera
 Proyecto enfocado en aprendizaje, producto y escalabilidad real.
 
 ---
